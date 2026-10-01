@@ -4,9 +4,7 @@ class Solution {
         int m=grid.size();
         int n=grid[0].size();
         grid[r][c]='0';
-        
-        
-        grid[r][c]='0';
+          
         if(r-1>=0 && grid[r-1][c]=='1')
         DFS(grid,r-1,c);
         if(c+1<n && grid[r][c+1]=='1')
